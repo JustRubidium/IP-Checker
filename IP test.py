@@ -28,11 +28,8 @@ while True:
         print(colorama.Fore.GREEN + f"[!] [FLOW] Connection: {line.strip()}")
         baglanti_var_mi = True
 
-        # SİHİRLİ DOKUNUŞ BURADA:
-        # Her satırı yazdıktan sonra 0.3 saniye bekliyor, böylece liste yavaşça akıyor!
         time.sleep(0.3)
 
-    # Eğer o turda hiç eşleşen yoksa biraz daha sakin beklesin
     if not baglanti_var_mi:
       time.sleep(1)
 
